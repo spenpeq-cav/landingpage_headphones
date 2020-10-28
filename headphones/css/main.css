@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/blue-print.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
+
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-fluid{
+    
+    margin: 0 5%;
+    padding: 0 20px;
+}
+
+.box-shadow-down{
+    -webkit-box-shadow: 15px 15px 28px -16px rgba(0,0,0,0.5);
+    -moz-box-shadow: 15px 15px 28px -16px rgba(0,0,0,0.5);
+    box-shadow: 15px 15px 28px -16px rgba(0,0,0,0.5);
+}
+
+.box-shadow-center{
+    -webkit-box-shadow: 0px 15px 28px -16px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 15px 28px -16px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 60px -12px rgba(0,0,0,0.5);
+}
+
+input::placeholder{
+    color: #bdc7ce;
+}
+
+
+
+
+
+
+
+a:hover{
+    color: red;
+    transition: color .3s ease-in-out;
+}
+
+#top-jumbo .container-fluid .header-buttons a{
+    transition: all .25s ease-in-out;
+}
+
+#top-jumbo .container-fluid .header-buttons .blue-btn:hover{
+    background: rgb(4, 13, 255);
+    transition: background .25s ease-in;
+}
+
+#top-jumbo .container-fluid .header-buttons .orange-btn:hover{
+    background: rgb(255, 145, 0);
+    transition: background .25s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+/*Laptop Devices*/
+@media only screen and (max-width: 1215px){
+    
+}
+
+/*Tablets Devices*/
+@media only screen and (max-width: 1023px){
+    
+}
+
+/*Mobile Devices*/
+@media only screen and (max-width: 768px){
+    
+}
+
+
+
+
+
+
+
+
+
+

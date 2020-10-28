@@ -1,0 +1,137 @@
+header{
+    padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header a{
+    color: #4C44C1;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+header .logo{
+    display: inline-block;
+    float: left;
+    margin-right: 28px;
+}
+
+header .logo img{
+    width: 40px;
+}
+
+header .menu{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 12px;
+}
+
+header .menu a{
+    text-transform: uppercase;
+}
+
+header .header-buttons{
+    display: inline-block;
+    float: right;
+    
+}
+
+header .header-buttons .blue-btn{
+    background: #6066F2;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 12px;
+
+}
+
+header .header-buttons .blue-btn .fas{
+    margin-left: 15px;
+}
+
+header .header-buttons .orange-btn{
+    background: #FEA83B;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 12px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*Laptop Devices*/
+@media only screen and (max-width: 1215px){
+    
+}
+
+/*Tablets Devices*/
+@media only screen and (max-width: 1023px){
+    
+}
+
+@media only screen and (max-width: 948px){
+    header .header-buttons .blue-btn {
+        background: #6066F2;
+        padding: 14px 46px;
+        color: white;
+        border-radius: 35px;
+        text-transform: uppercase;
+        position: relative;
+        top: 40px;
+    }
+    header .header-buttons .orange-btn {
+        background: #FEA83B;
+        padding: 14px 46px;
+        color: white;
+        border-radius: 35px;
+        text-transform: uppercase;
+        position: relative;
+        top: 40px;
+    }
+}
+
+/*Mobile Devices*/
+@media only screen and (max-width: 767px){
+    header .header-buttons .blue-btn {
+        background: #6066F2;
+        padding: 14px 46px;
+        color: white;
+        border-radius: 35px;
+        text-transform: uppercase;
+        position: relative;
+        top: 40px;
+    }
+    header .header-buttons .orange-btn {
+        background: #FEA83B;
+        padding: 14px 46px;
+        color: white;
+        border-radius: 35px;
+        text-transform: uppercase;
+        position: relative;
+        top: 40px;
+    }
+}
+
+
+
+

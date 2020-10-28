@@ -1,0 +1,91 @@
+footer{
+    background: #6066F2;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+footer h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    margin-bottom: 20px;
+}
+
+footer h2 span{
+    font-weight: 700;
+    color: #FEA83B;
+}
+
+footer .menu{
+    margin-bottom: 20px;
+}
+footer .menu li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+footer .menu li a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+footer p{
+    font-size: .8rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+footer .social-media li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer .social-media li a{
+    color: white;
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+footer .social-media li a{
+    transition: all .3s ease-in-out;
+}
+
+footer .social-media li a:hover{
+    color: white;
+    opacity: 0.9;
+    transition: opacity .3s ease-in;
+}
+
+
+
+
+
+
+/*Laptop Devices*/
+@media only screen and (max-width: 1215px){
+    
+}
+
+/*Tablets Devices*/
+@media only screen and (max-width: 1023px){
+    
+}
+
+/*Mobile Devices*/
+@media only screen and (max-width: 768px){
+    
+}
+
+
+
